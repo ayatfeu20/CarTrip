@@ -16,7 +16,7 @@ const Setting = () => {
 
   const responsiveButtonStyle = css({
     width: "100%",
-    backgroundColor: colors.orangeAccent[400],
+    backgroundColor: colors.orangeAccent[300],
     color: colors.grey[100],
     fontSize: "14px",
     fontWeight: "bold",
@@ -39,7 +39,7 @@ const Setting = () => {
       <Header title="Setting" subtitle="Device" />
 
       <Box sx={containerStyle}>
-        <Button sx={ responsiveButtonStyle }>Import and Configure device</Button>
+        <Button sx={ responsiveButtonStyle } >Import and Configure device</Button>
 
         <Box sx={textContainerStyle}>
           <p>Serial Number: 156461594859</p>

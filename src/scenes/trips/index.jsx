@@ -53,34 +53,18 @@ const Trips = () => {
       />
     
      <Box sx={{ display: "flex", gap: "10px" }}>
-     <div className="d-flex">
+     <div className="d-flex trips">
         <Button
-          sx={{
-            backgroundColor: colors.orangeAccent[400],
-            color: colors.grey[100],
-            fontSize: "14px",
-            fontWeight: "bold",
-            padding: "10px 8px",
-            marginRight: "10px",
-            marginTop: "10px",
-                        
-          }}
+        
+        className="_button"
+          
         >
           <DownloadOutlinedIcon sx={{ mr: "10px" }} />
           Export past month
         </Button>
 
         <Button
-          sx={{
-            backgroundColor: colors.orangeAccent[400],
-            color: colors.grey[100],
-            fontSize: "14px",
-            fontWeight: "bold",
-            padding: "10px 37px",
-            marginTop: "10px",
-            
-            
-          }}
+         className="_button1"
         >
           <DownloadOutlinedIcon sx={{ mr: "10px" }} />
           Export all

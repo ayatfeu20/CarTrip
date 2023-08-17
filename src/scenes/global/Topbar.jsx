@@ -113,7 +113,7 @@ const Topbar = () => {
           >
             <CloseIcon style={{ color: "gray" }} />
           </IconButton>
-          <Typography variant="h5" gutterBottom style={{ fontWeight: "bold" }}>
+          <Typography variant="h4" gutterBottom style={{ fontWeight: "bold" }}>
             User Profile
           </Typography>
           <hr style={{ border: "1px solid lightgrey", margin: "10px 0" }} />
@@ -154,20 +154,23 @@ const Topbar = () => {
           >
             <CloseIcon style={{ color: "gray" }} />
           </IconButton>
+          <Typography variant="h4" gutterBottom style={{ fontWeight: "bold" , paddingBottom:"5git "}}>
+            Notifications 
+          </Typography>
           <Typography variant="h6" gutterBottom>
-            Notifications 1
+            Notification 1
           </Typography>
           <hr style={{ border: "1px solid lightgrey", margin: "10px 0" }} />
           <Typography variant="h6" gutterBottom>
-            Notifications 2
+            Notification 2
           </Typography>
           <hr style={{ border: "1px solid lightgrey", margin: "10px 0" }} />
           <Typography variant="h6" gutterBottom>
-            Notifications 3
+            Notification 3
           </Typography>
           <hr style={{ border: "1px solid lightgrey", margin: "10px 0" }} />
           <Typography variant="h6" gutterBottom>
-            Notifications 4
+            Notification 4
           </Typography>
         
         </Box>

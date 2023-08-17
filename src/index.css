@@ -93,4 +93,44 @@ body,
   color: black;
 }
 
+.trips ._button{
+font-size: 14px;
+font-weight: bold;
+padding: 10px 8px;
+margin-right: 10px;
+margin-top: 10px;
+background-color: orange;
+color: white;
+border-radius: 4px;
+text-align: center;
+transition: background-color 0.2s, color 0.2s;
+}
+
+.trips ._button:hover {
+  background-color: rgb(246, 243, 243);
+  color: black;
+}
+
+.trips ._button1{
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 37px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .trips ._button1:hover {
+    background-color: rgb(246, 243, 243);
+    color: black;
+  }
+  
+  
+  
+
+
 
