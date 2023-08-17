@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap");
+
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100vh;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.app {
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.car-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  animation: moveCar 5s linear infinite; 
+  overflow: hidden; 
+}
+.moving-car {
+  max-width: 100%; 
+}
+
+@keyframes moveCar {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%); /* Change to 100% to move it back to the starting position */
+  }
+}
+
+/* Map.css */
+.map-container {
+  height: 75vh;
+  border: 1px solid #ccc; /* You can use your color variable here */
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  /* Adjust the height for smaller screens */
+  .map-container {
+    height: 50vh;
+  }
+}
+
+/* Add styles for the Sign Out button and hover effect */
+.sign-out-button {
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.sign-out-button:hover {
+  background-color: rgb(246, 243, 243);
+  color: black;
+}
+
+
