@@ -26,9 +26,9 @@ function App() {
           <main className="content">
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
-              <Route path="/" element={<Dashboard />} />
+              <Route path="/" element={<Home />} />
+              <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/trips" element={<Trips />} />
-              <Route path="/home" element={<Home />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/setting" element={<Setting />} />
               <Route path="/map" element={<Map />} />
